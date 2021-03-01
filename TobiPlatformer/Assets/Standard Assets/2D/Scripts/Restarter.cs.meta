@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: e053b0a94752146e79954ce4df1b5565
+timeCreated: 1460635956
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - winnerbox: {fileID: 2800000, guid: 528b3eb83a9c23641b08ba304996ab75, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

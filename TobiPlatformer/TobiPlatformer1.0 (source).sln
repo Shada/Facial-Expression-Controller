@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TobiPlatformer1.0 (source).CSharp.Plugins", "TobiPlatformer1.0 (source).CSharp.Plugins.csproj", "{8C7E02AE-6056-52D9-4938-8C942DDBF369}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TobiPlatformer1.0 (source).CSharp", "TobiPlatformer1.0 (source).CSharp.csproj", "{4F43FA81-7E9D-0FF5-A8CF-0A7C3C3BA3FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TobiPlatformer1.0 (source).CSharp.Editor", "TobiPlatformer1.0 (source).CSharp.Editor.csproj", "{DB2A4A3D-612E-6CD0-E5EB-1C55490F330B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C7E02AE-6056-52D9-4938-8C942DDBF369}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C7E02AE-6056-52D9-4938-8C942DDBF369}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C7E02AE-6056-52D9-4938-8C942DDBF369}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C7E02AE-6056-52D9-4938-8C942DDBF369}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F43FA81-7E9D-0FF5-A8CF-0A7C3C3BA3FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F43FA81-7E9D-0FF5-A8CF-0A7C3C3BA3FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F43FA81-7E9D-0FF5-A8CF-0A7C3C3BA3FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F43FA81-7E9D-0FF5-A8CF-0A7C3C3BA3FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB2A4A3D-612E-6CD0-E5EB-1C55490F330B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB2A4A3D-612E-6CD0-E5EB-1C55490F330B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB2A4A3D-612E-6CD0-E5EB-1C55490F330B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB2A4A3D-612E-6CD0-E5EB-1C55490F330B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

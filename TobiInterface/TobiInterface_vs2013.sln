@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TobiInterface_vs2013", "TobiInterface\TobiInterface_vs2013.vcxproj", "{34032CF2-1B99-4A25-9050-E9C13DD4CD0A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BDC1D107-DE17-4705-8E7B-CDDE8BFB2BF8} = {BDC1D107-DE17-4705-8E7B-CDDE8BFB2BF8}
+		{B47A5F12-2567-44E9-AE49-35763EC82149} = {B47A5F12-2567-44E9-AE49-35763EC82149}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{05BD3423-2A81-44E5-B599-C42D94E95B76}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CLM", "lib\local\CLM\CLM_vs2013.vcxproj", "{BDC1D107-DE17-4705-8E7B-CDDE8BFB2BF8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dlib", "lib\3rdParty\dlib\dlib_vs2013.vcxproj", "{B47A5F12-2567-44E9-AE49-35763EC82149}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34032CF2-1B99-4A25-9050-E9C13DD4CD0A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{34032CF2-1B99-4A25-9050-E9C13DD4CD0A}.Debug|Win32.Build.0 = Debug|Win32
+		{34032CF2-1B99-4A25-9050-E9C13DD4CD0A}.Release|Win32.ActiveCfg = Release|Win32
+		{34032CF2-1B99-4A25-9050-E9C13DD4CD0A}.Release|Win32.Build.0 = Release|Win32
+		{BDC1D107-DE17-4705-8E7B-CDDE8BFB2BF8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BDC1D107-DE17-4705-8E7B-CDDE8BFB2BF8}.Debug|Win32.Build.0 = Debug|Win32
+		{BDC1D107-DE17-4705-8E7B-CDDE8BFB2BF8}.Release|Win32.ActiveCfg = Release|Win32
+		{BDC1D107-DE17-4705-8E7B-CDDE8BFB2BF8}.Release|Win32.Build.0 = Release|Win32
+		{B47A5F12-2567-44E9-AE49-35763EC82149}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B47A5F12-2567-44E9-AE49-35763EC82149}.Debug|Win32.Build.0 = Debug|Win32
+		{B47A5F12-2567-44E9-AE49-35763EC82149}.Release|Win32.ActiveCfg = Release|Win32
+		{B47A5F12-2567-44E9-AE49-35763EC82149}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

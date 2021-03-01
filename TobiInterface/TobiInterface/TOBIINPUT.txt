@@ -1,0 +1,51 @@
+# Copyright 2016 Tobias Andersson @ Blekinge Institute of Technology
+# This is a Tobi-input configuration file. 
+# It is created by Tobias Andersson @ Blekinge Institute of Technology.
+# This file is part of the Facial Feature Input System created by Tobias Andersson as part of his Master of Science graduation project.
+# This file together with the rest of this project and project files created by Tobias Andersson for the Facial Feature Input System can be used for academic purposes only.
+# All third party software, files and data are distributed according to their separate licences. 
+
+# name
+n tobidefault
+
+# input type - FACE
+i FACE_INPUT
+
+# Joystick button/axis : distance/ratio name(s) [separated by ,] : threshold value(s) (strength of movement)  [separated by ,] ;
+# "d_*" for distances "r_*" for ratios 
+
+# pre-defined names exists for common distances (mouth corners, eye_corners, nose, etc.)
+# distances between other landmarks is defined by "d_id1_id2" where id1 and id2 are landmark id's.
+
+# common ratios also have defined names (eye width to eye height, mouth width to mouth height, etc.).
+# to define custom ratios use the following style: "r_id1_id2_id3_id3", where the ratio will be:
+# r = (distance(id1, id2) / distance(id3, id4))
+
+# to get the center or mean of ceveral landmark positions, use the following syntax:
+# "c_id1_id2_...idx". where id1, id2, ..., idx are the landmarks you want the center of.
+
+# by using extension "*_x" or "*_y" it is possible to get the horizontal or vertical distance/ratio/center only. 
+
+b 0 move_mouth_left 5
+b 1 move_mouth_right 5
+b 2 mouth_open 5
+b 2 eyebrows_lift 3
+
+
+#input type HEAD_INPUT
+i HEAD_INPUT
+
+# go left when lean left or look left
+b 0 roll -.2
+b 0 yaw -.2
+
+# go right when lean right or look right
+
+b 1 roll .2
+b 1 yaw .2 
+
+# jump when look up
+
+b 2 pitch -.2
+
+b 3 pitch .2
